@@ -76,9 +76,12 @@ python download_vocabs.py
 ### ⚠️ IMPORTANT: Adding Your Model & Datasets ⚠️
 Because AI model files and genetic datasets are incredibly massive, they are **ignored by Git** (via `.gitignore`) to prevent repository bloating. 
 
-**You MUST manually place your required resources into the project:**
-1. **Model Weights:** Place your fine-tuned `model.safetensors` file into the `model/` directory. *(Ensure `model/config.json` is also present there).*
-2. **Datasets (Optional for testing):** Place any `.h5ad` files you wish to test inside the root directory or `data/` directory.
+**If you wish to test or run the project locally, you must request access to the proprietary data:**
+Please send an email directly to **founder@rarecellx.app**. Once approved, you will be provided with the model weights and necessary dataset files.
+
+**Where to place them once received:**
+1. **Model Weights:** Place the provided `model.safetensors` file into the `model/` directory. *(Ensure `model/config.json` is also present there).*
+2. **Datasets:** Place any provided `.h5ad` files inside the root directory or `data/` directory.
 
 ### 3. Frontend Setup (Next.js UI)
 
